@@ -1,0 +1,29 @@
+/* Heading and strong text color */
+h1, h2, h3, strong {
+    color: purple;
+}
+
+/* Paragraph text color */
+p, em {
+    color: gray;
+}
+
+/* Styling for unordered and ordered lists */
+ul, ol {
+    border: 2px solid orange;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+/* Custom CSS changes */
+h1, h2 {
+    color: green; /* Updated color for headings */
+}
+
+ul {
+    border: 2px solid blue; /* Changed list border color */
+}
+
+p {
+    font-style: italic; /* Italicized paragraphs */
+}
