@@ -1,29 +1,40 @@
-/* Heading and strong text color */
+body {
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+}
+
 h1, h2, h3, strong {
     color: purple;
 }
 
-/* Paragraph text color */
 p, em {
     color: gray;
+    font-style: italic;
 }
 
-/* Styling for unordered and ordered lists */
 ul, ol {
     border: 2px solid orange;
     padding: 5px 20px;
     border-radius: 4px;
 }
 
-/* Custom CSS changes */
-h1, h2 {
-    color: green; /* Updated color for headings */
+h1 {
+    color: tomato;
+}
+
+h2 {
+    color: orange;
 }
 
 ul {
-    border: 2px solid blue; /* Changed list border color */
+    border: 5px dotted blueviolet; 
 }
 
-p {
-    font-style: italic; /* Italicized paragraphs */
+ol {
+    border: 5px solid white;
+}
+
+em {
+    color: red;
+    background-color: #800080; 
 }
